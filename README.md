@@ -7,7 +7,7 @@ This codebase is for use in the web applications pairing challenges.
 1. Clone this repo
 2. Install the dependencies
 
-## Exploring
+## Exploration
 
 1. Run the app
 2. Use Postman to send some requests
