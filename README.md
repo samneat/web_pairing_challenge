@@ -6,6 +6,7 @@ This codebase is for use in the web applications pairing challenges.
 
 1. Clone this repo
 2. Install the dependencies
+3. Activate your virtual env
 
 ## Exploration
 
