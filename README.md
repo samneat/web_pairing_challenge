@@ -12,9 +12,9 @@ This codebase is for use in the web applications pairing challenges.
 1. Run the app
 2. Use Postman to send some requests
    - `GET "http://127.0.0.1:5000/users/"` should return a list of all the users
-   - `GET "http://127.0.0.1:5000/users/1"` should return the user with an `id` of `1`
-   - `POST "http://127.0.0.1:5000/users"` can be used to create new user - [you'll need to provide params](#params)
-   - `PUT "http://127.0.0.1:5000/users/1"` can be used to update a user - [you'll need to provide params](#params)
+   - `GET "http://127.0.0.1:5000/users/1"` should return the user with an `id` of `1`. What happens if you use an `id`, like `100`, that doesn't correspond to an existing user?
+   - `POST "http://127.0.0.1:5000/users"` can be used to create new user - [you'll need to provide params](#params). What happens if you omit the params?
+   - `PUT "http://127.0.0.1:5000/users/1"` can be used to update a user - [you'll need to provide params](#params). What happens if you omit the params and / or use an invalid `id`?
    - `DELETE "http://127.0.0.1:5000/users/1"` will delete the user with an ad of `1`
 
 > As you run each request, observe the response - this will come in handy when you start to write tests
